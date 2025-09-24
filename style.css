@@ -1,0 +1,71 @@
+/* style.css - AprendeFácil (final) */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7fbff;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background: #2f80ed;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: clamp(22px, 4vw, 32px);
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.card {
+  background: #fff;
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card h2 {
+  margin-top: 0;
+  font-size: clamp(18px, 3vw, 24px);
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 1px;
+  border-radius: 8px;
+  background: #0b5ed7;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+}
+footer {
+  background: #2f80ed;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  margin-top: auto;
+}
+.controls { margin: 10px 0; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;}
+.controls .btn { width: auto; flex: 1;}
+.destaque { background:#f0f8ff; border:2px dashed #2f80ed; padding: 10px; border-radius: 8px; }
+.dica { background:#e8f7e4; border-left:5px solid #4caf50; padding:8px; border-radius:6px; margin-top: 8px;}
+.atencao { background:#fff3cd; border-left:5px solid #ffc107; padding:8px; border-radius:6px; margin-top: 8px;}
